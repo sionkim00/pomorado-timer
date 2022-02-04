@@ -51,7 +51,7 @@ export default function App() {
         {!isRunning && (
           <button
             onClick={timerStart}
-            className="px-5 py-2 bg-blue-700 hover:bg-blue-500 text-blue-200 hover:text-blue-100 rounded hover:rounded-xl hover:shadow transition duration-300"
+            className="px-5 py-2 bg-blue-700 hover:bg-blue-500 text-blue-200 hover:text-blue-100 rounded hover:shadow transition duration-300"
           >
             Start
           </button>
@@ -59,14 +59,14 @@ export default function App() {
         {isRunning && (
           <button
             onClick={timerStop}
-            className="px-5 py-2 bg-yellow-700 hover:bg-yellow-500 text-yellow-200 hover:text-yellow-100 rounded hover:rounded-xl hover:shadow transition duration-300"
+            className="px-5 py-2 bg-yellow-700 hover:bg-yellow-500 text-yellow-200 hover:text-yellow-100 rounded hover:shadow transition duration-300"
           >
             Stop
           </button>
         )}
         <button
           onClick={timerReset}
-          className="px-5 py-2 bg-red-700 hover:bg-red-500 text-red-200 hover:text-red-100 rounded hover:rounded-xl hover:shadow transition duration-300"
+          className="px-5 py-2 bg-red-700 hover:bg-red-500 text-red-200 hover:text-red-100 rounded hover:shadow transition duration-300"
         >
           Reset
         </button>
